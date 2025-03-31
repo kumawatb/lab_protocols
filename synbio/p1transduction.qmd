@@ -1,0 +1,71 @@
+---
+date: 03/31/2025
+author: Bhaskar Kumawat
+---
+
+# P1 Transduction {.unnumbered}
+
+**Strains:** Donor *E. coli* (eg. Keio knockout), Recipient *E. coli* (eg. K12), P1 phage stock (high titer)
+
+**Reagents:** NZCYM media, 1M Sodium Citrate, 10mM CaCl<sub>2</sub>, antibiotic stocks, P1 salts solution (LB with 10mM MgSO<sub>4</sub> and 5mM CaCl<sub>2</sub>), LB plates
+
+**Time required:** 2-3 days (excluding day 0)
+
+
+### A. Donor lysate preparation
+
+[Day 0]{.aside}
+1. Inoculate a 3ml overnight culture of donor strain in LB supplemented with antibiotics (eg. Kan for keio collection donors).
+
+[Day 0]{.aside}
+2. Inoculate a 3ml overnight culture of recipient strain in LB. (For part B)
+
+[Day 1]{.aside}
+3. Dilute saturated donor culture 1:100 into 3mL NZCYM supplemented with 10Mm CaCl<sub>2</sub> and antibiotic if required (eg. Kan for keio collection donors). Incubate at 37C and start checking for cells after 40 minutes.
+    - Make an additional such dilution to visually check for phage clearing later. No P1 phage will be added to this control culture.
+    - Start a 42C water bath for incubation after addition of P1 phage.
+
+[Day 1]{.aside}
+4. After around 45-60 minutes, if the culture has swirls when held up the light and shaken, add 50uL of the high-titer P1 phage stock to the culture. Incubate at 42C for 1 hour.
+
+[Day 1]{.aside}
+5. After 60 minutes, check if the culture with P1 phage has started to clear (compared to control). If so, move the culture to 37C for 2 hours.
+
+[Day 1]{.aside} 
+6. Transfer lysed culture to a 15mL conical centrifuge tube and add 200uL CHCl<sub>3</sub>. Vortex the tube vigorously to lyse any remaining cells and incubate at 37C for another 5 minutes.
+    - At this point, start fast-cooling the centrifuge to 4C.
+
+[Day 1]{.aside}
+7. After 5 minutes, centrifuge the 15 mL conical tubes at 9200g for 5 mins (or at max speed for 10 minutes).
+    - Collect syringes and 0.45um filters for filtering the lysate.
+    - Label new tubes that will be used to store the lysate.
+
+[Day 1]{.aside}
+8. After centrifugation, carefully transfer the supernatant to the syringe and filter it through the 0.45um filter into its final tube. This P1:Donor lysate can now be stored at 4C.
+    - Discard the chloroform contaminated tubes in biohazard bins.
+
+### B. Recipient transduction
+
+[Day 1 or 2]{.aside}
+1. Pellet 1mL of saturated recipient culture for 2 minutes at maximum speed. 
+
+[Day 1 or 2]{.aside}
+2. Resuspend the cells in 500uL P1 salts solution. Transfer 100uL of these cells to 3 tubes (100uL each). 
+    - One of these tubes is a no-phage control and gets no P1:Donor lysate. 
+    - Add 10uL P1:Donor lysate to one of the other tubes. 
+    - Add 100uL P1:Donor lysate to the final tube.
+
+
+[Day 1 or 2]{.aside}
+3. Incubate the tubes at 37C without shaking (desk top heater w/ water in the wells) for 30 minutes to allow the phage to adsorb to the cells.
+
+[Day 1 or 2]{.aside}
+4. After 30 minutes, add 1mL of LB and 200uL of 1M Sodium Citrate to each tube and incubate for 1 hour with shaking.
+    - Spread plain LB plates with 5mM Sodium Citrate (125uL of 1M for a 25uL plate) and any antibiotics required for selection of the transduced strain. (eg. Kan for keio collection donors).
+
+
+[Day 1 or 2]{.aside}
+5. After 1 hour, spin down the cells, discard the supernatant, and resuspend in 100uL LB media. Spread, the cells on LB plates containing 5mM Sodium Citrate and antibiotic. Incubate the plates at 37C 
+
+[Day 2 or 3]{.aside}
+6. Check the plates the next day, no-phage plates should have no colonies. Restreak colonies from the plates made with P1:Donor lysate transduced cultures onto selective plates. You can directly inoculate these colonies (after restreaking) for step 2 of [FLP recombination](./flprecombination.qmd).

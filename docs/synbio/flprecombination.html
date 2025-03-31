@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Bhaskar Kumawat">
-<meta name="dcterms.date" content="2025-01-01">
+<meta name="dcterms.date" content="2025-03-31">
 <meta name="description" content="A collection of protocols and notes from wet-lab work.">
 
-<title>Lab Protocols</title>
+<title>FLP Recombination – Lab Protocols</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,23 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./synbio/p1transduction.html" rel="next">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-94ba5b013f671403b8e985821fba2a4b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../synbio/p1transduction.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-94ba5b013f671403b8e985821fba2a4b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -71,10 +71,39 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
-<body class="nav-sidebar floating">
+<body class="nav-sidebar floating slimcontent">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -83,7 +112,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Introduction</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../synbio/p1transduction.html">Synthetic Biology</a></li><li class="breadcrumb-item"><a href="../synbio/flprecombination.html">FLP Recombination</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -98,9 +127,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Lab Protocols</a> 
+      <a href="../">Lab Protocols</a> 
         <div class="sidebar-tools-main">
-    <a href="./Lab-Protocols.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="../Lab-Protocols.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -113,7 +142,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction</span></a>
   </div>
 </li>
@@ -128,13 +157,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./synbio/p1transduction.html" class="sidebar-item-text sidebar-link">
+  <a href="../synbio/p1transduction.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">P1 Transduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./synbio/flprecombination.html" class="sidebar-item-text sidebar-link">
+  <a href="../synbio/flprecombination.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">FLP Recombination</span></a>
   </div>
 </li>
@@ -150,23 +179,19 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#a.-pcp20-transformation" id="toc-a.-pcp20-transformation" class="nav-link active" data-scroll-target="#a.-pcp20-transformation">A. pcp20 Transformation</a></li>
+  <li><a href="#b.-recombination-curing-and-screening" id="toc-b.-recombination-curing-and-screening" class="nav-link" data-scroll-target="#b.-recombination-curing-and-screening">B. Recombination, curing, and screening</a></li>
   </ul>
 </nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content page-columns page-full" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../synbio/p1transduction.html">Synthetic Biology</a></li><li class="breadcrumb-item"><a href="../synbio/flprecombination.html">FLP Recombination</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Lab Protocols</h1>
+<h1 class="title">FLP Recombination</h1>
 </div>
 
-<div>
-  <div class="description">
-    A collection of protocols and notes from wet-lab work.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -174,14 +199,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Bhaskar Kumawat <a href="mailto:kumawatb@umich.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+             <p>Bhaskar Kumawat </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2025</p>
+      <p class="date">March 31, 2025</p>
     </div>
   </div>
   
@@ -193,8 +218,25 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction" class="level1 unnumbered">
-<h1 class="unnumbered">Introduction</h1>
+<p><strong>Strains:</strong> Transformant strain</p>
+<p><strong>Reagents:</strong> TSS buffer, pcp20 plasmid, LB plates, antibiotics</p>
+<p><strong>Time required:</strong> 5 days (excluding day 0)</p>
+<section id="a.-pcp20-transformation" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="a.-pcp20-transformation">A. pcp20 Transformation</h3>
+<div class="page-columns page-full"><p> 1. Inoculate a 3ml overnight culture of transformant strain in LB supplemented with antibiotics (eg. Kan for keio collection transduced strains).</p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 0</span></div></div>
+<div class="page-columns page-full"><p> 2. Dilute the overnight culture 1:100 in 3mL LB supplemented with antibiotics and incubate at 37C for 2-3 hours.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 0</span></div></div>
+<div class="page-columns page-full"><p> 3. After 2-3 hours, once the culture is translucent but not opaque, swirl the culture in ice water bath for 5-10 minutes to stop cell growth.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 1</span></div></div>
+<div class="page-columns page-full"><p> 4. Centrifuge the culture in two 1.5mL centrifuge tubes at maximum speed for 5 minutes to get a cell pellet. Resuspend the cell pellet in 100uL TSS buffer. - One of these tubes can be used as a control and will get no plasmid DNA.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 1</span></div></div>
+<div class="page-columns page-full"><p> 5. Add 1uL pcp20 plasmid DNA to the tube and incubate on ice for 30 minutes. - Set a desk-top heater to 42C for the heat-shock step.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 1</span></div></div>
+<div class="page-columns page-full"><p> 6. Heat shock the cells twice by doing two 45 second heat exposures with a two minute gap on ice (45 sec shock <span class="math inline">\(\rightarrow\)</span> 120 second on ice <span class="math inline">\(\rightarrow\)</span> 45 sec shock). After these heat-shocks, let the tubes incubate on ice for 2 minutes and add 500uL SOC to each. Incubate the cells at 30C for 1 hour. - Make LB + Carbenicillin plates for plating transformants.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 1</span></div></div>
+<div class="page-columns page-full"><p> 7. Plate 100uL of the culture on LB + Carbenicillin plates. Grow the plates overnight at 30C.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 1</span></div></div>
+</section>
+<section id="b.-recombination-curing-and-screening" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="b.-recombination-curing-and-screening">B. Recombination, curing, and screening</h3>
+<div class="page-columns page-full"><p> 1. After checking for the absence of colonies on the control, inoculate 3 transformed colonies in 3mL LB and grow at 42C overnight for curing of the plasmid.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 2</span></div></div>
+<div class="page-columns page-full"><p> 2. Dilute the overnight culture by a factor of 10<sup>6</sup> (3x dilution of 10uL in 990uL LB) and plate 125uL of this dilution on LB plates. Incubate the plates at 30C.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 3</span></div></div>
+<div class="page-columns page-full"><p> 3. Pick three colonies from each plate (total 9 colonies) and restreak them on LB+Kan <span class="math inline">\(\rightarrow\)</span> LB+Carb <span class="math inline">\(\rightarrow\)</span> LB plates (in that order) followed by resuspension in 10uL nuclease free water in a PCR tube. Incubate the LB and LB+Kan plate at 37C and the LB+Carb plate at 30C overnight. - The colonies in nuclease free water can be used directly for a Colony PCR to check for deletion of the Kanamycin casette.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 4</span></div></div>
+<div class="page-columns page-full"><p> 4. The next day, isolate colonies that grew on LB but not on LB+Kan and LB+Carb plates. These are the recombined clones. Verify deletions with PCR for binding sites flanking the gene of interest.</p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 5</span></div></div>
 
 
 </section>
@@ -619,11 +661,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../synbio/p1transduction.html" class="pagination-link" aria-label="P1 Transduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">P1 Transduction</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./synbio/p1transduction.html" class="pagination-link" aria-label="P1 Transduction">
-        <span class="nav-page-text">P1 Transduction</span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

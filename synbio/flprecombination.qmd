@@ -1,0 +1,54 @@
+---
+date: 03/31/2025
+author: Bhaskar Kumawat
+---
+
+# FLP Recombination {.unnumbered}
+
+**Strains:** Transformant strain
+
+**Reagents:** TSS buffer, pcp20 plasmid, LB plates, antibiotics
+
+**Time required:**  5 days (excluding day 0)
+
+### A. pcp20 Transformation
+
+[Day 0]{.aside}
+1. Inoculate a 3ml overnight culture of transformant strain in LB supplemented with antibiotics (eg. Kan for keio collection transduced strains). 
+
+[Day 0]{.aside}
+2. Dilute the overnight culture 1:100 in 3mL LB supplemented with antibiotics and incubate at 37C for 2-3 hours.
+
+[Day 1]{.aside}
+3. After 2-3 hours, once the culture is translucent but not opaque, swirl the culture in ice water bath for 5-10 minutes to stop cell growth.
+
+[Day 1]{.aside}
+4. Centrifuge the culture in two 1.5mL centrifuge tubes at maximum speed for 5 minutes to get a cell pellet. Resuspend the cell pellet in 100uL TSS buffer. 
+    - One of these tubes can be used as a control and will get no plasmid DNA.
+
+[Day 1]{.aside}
+5. Add 1uL pcp20 plasmid DNA to the tube and incubate on ice for 30 minutes.
+    - Set a desk-top heater to 42C for the heat-shock step.
+
+[Day 1]{.aside}
+6. Heat shock the cells twice by doing two 45 second heat exposures with a two minute gap on ice (45 sec shock $\rightarrow$ 120 second on ice $\rightarrow$ 45 sec shock). After these heat-shocks, let the tubes incubate on ice for 2 minutes and add 500uL SOC to each. Incubate the cells at 30C for 1 hour.
+    - Make LB + Carbenicillin plates for plating transformants.
+
+[Day 1]{.aside}
+7. Plate 100uL of the culture on LB + Carbenicillin plates. Grow the plates overnight at 30C.
+
+### B. Recombination, curing, and screening
+
+[Day 2]{.aside}
+1. After checking for the absence of colonies on the control, inoculate 3 transformed colonies in 3mL LB and grow at 42C overnight for curing of the plasmid.
+
+[Day 3]{.aside}
+2. Dilute the overnight culture by a factor of 10<sup>6</sup> (3x dilution of 10uL in 990uL LB) and plate 125uL of this dilution on LB plates. Incubate the plates at 30C. 
+
+[Day 4]{.aside}
+3. Pick three colonies from each plate (total 9 colonies) and restreak them on LB+Kan $\rightarrow$ LB+Carb $\rightarrow$ LB plates (in that order) followed by resuspension in 10uL nuclease free water in a PCR tube. Incubate the LB and LB+Kan plate at 37C and the LB+Carb plate at 30C overnight.
+    - The colonies in nuclease free water can be used directly for a Colony PCR to check for deletion of the Kanamycin casette.
+
+[Day 5]{.aside}
+4. The next day, isolate colonies that grew on LB but not on LB+Kan and LB+Carb plates. These are the recombined clones. Verify deletions with PCR for binding sites flanking the gene of interest.
+
