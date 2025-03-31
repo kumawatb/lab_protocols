@@ -1,0 +1,30 @@
+project:
+  type: book
+  output-dir: ./docs
+
+book:
+  title: Lab Protocols
+  description: A collection of protocols and notes from wet-lab work.
+  sidebar:
+    title: Lab Protocols
+  author:
+    - name: Bhaskar Kumawat
+      email: kumawatb@umich.edu
+  date: last-modified
+  date-format: YYYY
+  chapters:
+    - index.qmd
+  downloads: [pdf]
+
+format:
+  html:
+    theme: 
+      - simplex
+      - custom-light.scss
+  pdf:
+    documentclass: scrreprt
+    fontfamily: libertinus
+
+
+
+
