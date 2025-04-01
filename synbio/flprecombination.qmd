@@ -7,7 +7,7 @@ author: Bhaskar Kumawat
 
 **Strains:** Transformant strain
 
-**Reagents:** TSS buffer, pcp20 plasmid, LB plates, antibiotics
+**Reagents:** [TSS buffer](../recipes/tssbuffer.qmd), pcp20 plasmid, LB plates, antibiotics
 
 **Time required:**  5 days (excluding day 0)
 

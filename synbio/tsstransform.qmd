@@ -1,0 +1,46 @@
+---
+date: 04/01/2025
+author: Bhaskar Kumawat
+---
+
+# TSS Transformation {.unnumbered}
+
+**Strains:** Transformant strain
+
+**Reagents:** [TSS buffer](../recipes/tssbuffer.qmd), plasmid, LB plates, antibiotics
+
+**Time required:**  4-5 hours (excluding Day 0)
+
+
+### A. pcp20 Transformation
+
+[Day 0]{.aside}
+
+1. Inoculate a 3ml overnight culture of transformant strain in LB supplemented with any antibiotics required for plasmid/insert maintenance.
+
+[Day 1]{.aside}
+
+2. Dilute the overnight culture 1:100 in 3mL LB supplemented with antibiotics and incubate at 37C for 1-2 hours.
+
+[Day 1]{.aside}
+
+3. After 1-2 hours, once the culture is translucent but not opaque, swirl the culture in ice water bath for 5-10 minutes to stop cell growth.
+
+[Day 1]{.aside}
+
+4. Centrifuge the culture in two 1.5mL centrifuge tubes at maximum speed for 5 minutes to get a cell pellet. Resuspend the cell pellet in 100uL TSS buffer. 
+    - One of these tubes can be used as a control and will get no plasmid DNA.
+
+[Day 1]{.aside}
+
+5. Add 1uL plasmid DNA to the tube and incubate on ice for 30 minutes.
+    - Set a desk-top heater to 42C for the heat-shock step.
+
+[Day 1]{.aside}
+
+6. Heat shock the cells twice by doing two 45 second heat exposures with a two minute gap on ice (45 sec shock $\rightarrow$ 120 second on ice $\rightarrow$ 45 sec shock). After these heat-shocks, let the tubes incubate on ice for 2 minutes and add 500uL SOC to each. Incubate the cells at 37C (or another temperature required for plasmid stability) for 45 minutes.
+    - During this time, make selection plates for plating the transformants (with previous and new antibiotics)
+
+[Day 1]{.aside}
+
+7. Plate 100uL of the culture on selective plates. Grow the plates overnight at 37C (or alternative temperature for plasmid).

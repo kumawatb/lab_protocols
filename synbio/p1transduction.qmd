@@ -1,6 +1,8 @@
 ---
 date: 03/31/2025
 author: Bhaskar Kumawat
+citation-location: margin
+reference-location: margin
 ---
 
 # P1 Transduction {.unnumbered}

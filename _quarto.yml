@@ -18,6 +18,10 @@ book:
       chapters:
         - synbio/p1transduction.qmd
         - synbio/flprecombination.qmd
+        - synbio/tsstransform.qmd
+    - part: "Recipes"
+      chapters:
+        - recipes/tssbuffer.qmd
   downloads: [pdf]
 
 format:
