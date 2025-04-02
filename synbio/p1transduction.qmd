@@ -9,7 +9,7 @@ reference-location: margin
 
 **Strains:** Donor *E. coli* (eg. Keio knockout), Recipient *E. coli* (eg. K12), P1 phage stock (high titer)
 
-**Reagents:** NZCYM media, 1M Sodium Citrate, 10mM CaCl<sub>2</sub>, antibiotic stocks, P1 salts solution (LB with 10mM MgSO<sub>4</sub> and 5mM CaCl<sub>2</sub>), LB plates
+**Reagents:** NZCYM media, 1M Sodium Citrate, 10mM CaCl<sub>2</sub>, antibiotic stocks, P1 salts solution (LB with 10mM CaCl<sub>2</sub> and 5mM MgSO<sub>4</sub>), LB plates
 
 **Time required:** 2-3 days (excluding day 0)
 
