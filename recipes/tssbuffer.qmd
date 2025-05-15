@@ -5,3 +5,30 @@ author: Bhaskar Kumawat
 
 
 # TSS Buffer {.unnumbered}
+
+*Based on the [Bennett lab TSS protocol](https://wiki.rice.edu/confluence/pages/viewpage.action?pageId=27118902)*
+
+### Pre-sterilized components
+Makes **50mL** TSS Buffer
+
+| Component | Stock Concentration | Sterilization method | Amount |
+|-----------|---------------------|---------------------|--------|
+| LB Media | 1x | Autoclaved | 42.5mL |
+| PEG-3350 | 1g/mL | Filter-sterilized | 5mL |
+| MgCl<sub>2</sub> | 1M | Autoclaved | 1mL |
+| DMSO | 100% | -- | 2.5mL |
+
+Store at 4&deg;C.
+
+### Post-sterilized components
+
+Makes **50mL** TSS Buffer
+
+| Component | Stock Concentration | Amount |
+|-----------|---------------------|--------|
+| PEG-3350 | pure | 5g |
+| MgCl<sub>2</sub> | 1M | 1mL |
+| DMSO | 100% | 2.5mL |
+| LB media | 1x | make up to 50mL (~46.5mL) |
+
+Filter sterilize and store at 4&deg;C.

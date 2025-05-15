@@ -1,0 +1,22 @@
+---
+date: 05/15/2025
+author: Bhaskar Kumawat
+citation-location: margin
+reference-location: margin
+---
+
+# 3-Color Infection Assay {.unnumbered}
+
+This protocol is used to check for phage *E. coli* receptor usage using three one-receptor strains containing only the LamB, OmpF, or OmpC receptor each. The phage are plated on a plate containing 1:1:1 ratio of the three strains, each containing a different fluoroscent reporter, and then imaged using a fluoroscent microscope setup.
+
+**Strains:**
+
+* 3-color strains
+    - *E. coli* $\Delta$LamB $\Delta$OmpF w/ mClover3 (eOC)
+    - *E. coli* $\Delta$OmpF $\Delta$OmpC w/ mTurquoise2 (eLB)
+    - *E. coli* $\Delta$OmpC $\Delta$LamB w/ mScarlet-I (eOF)
+
+**Reagents:** LB Media, 0.3% NZCYM Agar, 1000x Kanamycin stock, phage sample.
+
+**Time required:** 2 days (excluding day 0)
+

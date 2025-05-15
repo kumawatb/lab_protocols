@@ -13,5 +13,11 @@
   },
   "recipes/tssbuffer.qmd": {
     "tssbuffer.html": "ce4eb9c7"
+  },
+  "microbiology/3colorinfection.qmd": {
+    "3colorinfection.html": "9360c77f"
+  },
+  "microbiology/receptorswitchtest.qmd": {
+    "receptorswitchtest.html": "2345df09"
   }
 }

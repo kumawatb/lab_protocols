@@ -19,6 +19,10 @@ book:
         - synbio/p1transduction.qmd
         - synbio/flprecombination.qmd
         - synbio/tsstransform.qmd
+    - part: "Microbiology"
+      chapters:
+        - microbiology/3colorinfection.qmd
+        - microbiology/receptorswitchtest.qmd
     - part: "Recipes"
       chapters:
         - recipes/tssbuffer.qmd

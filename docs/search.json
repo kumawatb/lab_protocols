@@ -41,5 +41,27 @@
       "Synthetic Biology",
       "TSS Transformation"
     ]
+  },
+  {
+    "objectID": "microbiology/3colorinfection.html",
+    "href": "microbiology/3colorinfection.html",
+    "title": "3-Color Infection Assay",
+    "section": "",
+    "text": "This protocol is used to check for phage E. coli receptor usage using three one-receptor strains containing only the LamB, OmpF, or OmpC receptor each. The phage are plated on a plate containing 1:1:1 ratio of the three strains, each containing a different fluoroscent reporter, and then imaged using a fluoroscent microscope setup.\nStrains:\n\n3-color strains\n\nE. coli \\(\\Delta\\)LamB \\(\\Delta\\)OmpF w/ mClover3 (eOC)\nE. coli \\(\\Delta\\)OmpF \\(\\Delta\\)OmpC w/ mTurquoise2 (eLB)\nE. coli \\(\\Delta\\)OmpC \\(\\Delta\\)LamB w/ mScarlet-I (eOF)\n\n\nReagents: LB Media, 0.3% NZCYM Agar, 1000x Kanamycin stock, phage sample.\nTime required: 2 days (excluding day 0)",
+    "crumbs": [
+      "Microbiology",
+      "3-Color Infection Assay"
+    ]
+  },
+  {
+    "objectID": "recipes/tssbuffer.html",
+    "href": "recipes/tssbuffer.html",
+    "title": "TSS Buffer",
+    "section": "",
+    "text": "Based on the Bennett lab TSS protocol\n\nPre-sterilized components\nMakes 50mL TSS Buffer\n\n\n\nComponent\nStock Concentration\nSterilization method\nAmount\n\n\n\n\nLB Media\n1x\nAutoclaved\n42.5mL\n\n\nPEG-3350\n1g/mL\nFilter-sterilized\n5mL\n\n\nMgCl2\n1M\nAutoclaved\n1mL\n\n\nDMSO\n100%\n–\n2.5mL\n\n\n\nStore at 4°C.\n\n\nPost-sterilized components\nMakes 50mL TSS Buffer\n\n\n\nComponent\nStock Concentration\nAmount\n\n\n\n\nPEG-3350\npure\n5g\n\n\nMgCl2\n1M\n1mL\n\n\nDMSO\n100%\n2.5mL\n\n\nLB media\n1x\nmake up to 50mL (~46.5mL)\n\n\n\nFilter sterilize and store at 4°C.",
+    "crumbs": [
+      "Recipes",
+      "TSS Buffer"
+    ]
   }
 ]
