@@ -19,5 +19,8 @@
   },
   "microbiology/receptorswitchtest.qmd": {
     "receptorswitchtest.html": "2345df09"
+  },
+  "synbio/colonypcr.qmd": {
+    "colonypcr.html": "4697c509"
   }
 }

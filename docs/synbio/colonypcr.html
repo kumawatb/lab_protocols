@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Bhaskar Kumawat">
-<meta name="dcterms.date" content="2025-01-01">
+<meta name="dcterms.date" content="2025-06-06">
 <meta name="description" content="A collection of protocols and notes from wet-lab work.">
 
-<title>Lab Protocols</title>
+<title>Colony PCR – Lab Protocols</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -26,23 +26,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./synbio/p1transduction.html" rel="next">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-94ba5b013f671403b8e985821fba2a4b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../microbiology/3colorinfection.html" rel="next">
+<link href="../synbio/tsstransform.html" rel="prev">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-94ba5b013f671403b8e985821fba2a4b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -71,6 +72,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -83,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Introduction</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../synbio/p1transduction.html">Synthetic Biology</a></li><li class="breadcrumb-item"><a href="../synbio/colonypcr.html">Colony PCR</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -98,9 +128,9 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Lab Protocols</a> 
+      <a href="../">Lab Protocols</a> 
         <div class="sidebar-tools-main">
-    <a href="./Lab-Protocols.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="../Lab-Protocols.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -113,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="../index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction</span></a>
   </div>
 </li>
@@ -128,25 +158,25 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./synbio/p1transduction.html" class="sidebar-item-text sidebar-link">
+  <a href="../synbio/p1transduction.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">P1 Transduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./synbio/flprecombination.html" class="sidebar-item-text sidebar-link">
+  <a href="../synbio/flprecombination.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">FLP Recombination</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./synbio/tsstransform.html" class="sidebar-item-text sidebar-link">
+  <a href="../synbio/tsstransform.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TSS Transformation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./synbio/colonypcr.html" class="sidebar-item-text sidebar-link">
+  <a href="../synbio/colonypcr.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Colony PCR</span></a>
   </div>
 </li>
@@ -163,13 +193,13 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./microbiology/3colorinfection.html" class="sidebar-item-text sidebar-link">
+  <a href="../microbiology/3colorinfection.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">3-Color Infection Assay</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./microbiology/receptorswitchtest.html" class="sidebar-item-text sidebar-link">
+  <a href="../microbiology/receptorswitchtest.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">receptorswitchtest.html</span></span></a>
   </div>
 </li>
@@ -186,7 +216,7 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./recipes/tssbuffer.html" class="sidebar-item-text sidebar-link">
+  <a href="../recipes/tssbuffer.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TSS Buffer</span></a>
   </div>
 </li>
@@ -197,28 +227,17 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Table of contents</h2>
-   
-  <ul>
-  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
-  </ul>
-</nav>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../synbio/p1transduction.html">Synthetic Biology</a></li><li class="breadcrumb-item"><a href="../synbio/colonypcr.html">Colony PCR</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Lab Protocols</h1>
+<h1 class="title">Colony PCR</h1>
 </div>
 
-<div>
-  <div class="description">
-    A collection of protocols and notes from wet-lab work.
-  </div>
-</div>
 
 
 <div class="quarto-title-meta">
@@ -226,14 +245,14 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Author</div>
     <div class="quarto-title-meta-contents">
-             <p>Bhaskar Kumawat <a href="mailto:kumawatb@umich.edu" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+             <p>Bhaskar Kumawat </p>
           </div>
   </div>
     
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">2025</p>
+      <p class="date">June 6, 2025</p>
     </div>
   </div>
   
@@ -245,11 +264,27 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="introduction" class="level1 unnumbered">
-<h1 class="unnumbered">Introduction</h1>
+<p><strong>Strains:</strong> Plate with any colonies to be tested (Plate of interest)</p>
+<p><strong>Reagents:</strong> Appropriate primers for verification, restreak plate with appropriate antibiotic</p>
+<p><strong>Time required:</strong> &lt;1 day.</p>
+<ol type="1">
+<li><p>Create/use LB Agar plates that contain the appropriate antibiotic that was used for selection of the colonies that are to be verified.</p></li>
+<li><p>Divide the plate area into any number of subsections for restreaking the colonies. (I usually divide a plate into 8 sectors).</p></li>
+<li><p>For 10uL reactions and N colonies, create a batch PCR mix that is 10 times (N+1) uL in volume. For example, for 8 samples, I will create a PCR master mix that is <span class="math inline">\(10\times(8+1)=90\)</span> uL in volume. This master mix will contain,</p>
+<ul>
+<li>Water</li>
+<li>Forward Primer</li>
+<li>Reverse Primer, and</li>
+<li>Polymerase w/ Buffer (i.e., PCR Master Mix)</li>
+</ul></li>
+<li><p>Decide how much water, primers, and polymerase MM goes into this batch mix using the appropriate enzyme documentation and based on the total volume calculated above. For colony PCR, I suggest using a non-high fidelity enzyme like <a href="https://www.promega.com/resources/protocols/product-information-sheets/g/gotaq-green-master-mix-m712-protocol/">Promega GoTaq Green</a> (but <a href="https://www.neb.com/en-us/protocols/2012/08/30/protocol-for-q5-hot-start-high-fidelity-2x-master-mix-m0494">NEB Q5</a> can be used if the first try with GoTaq fails.)</p></li>
+<li><p>Mix the batch using vortexing and spin it down. Divide the batch mix into individual PCR tubes, with 10ul volume per tube. Label one of them the negative control (-) and the rest as C1 to CN, where N is the number of colonies you wish to PCR.</p></li>
+<li><p>Now, number N colonies on your plate of interest with a marker (from 1 to N). Number the subdivisions on the new plate the same way.</p></li>
+<li><p>For each colony, pick it using a sterile pipette tip from the plate of interest and streak it in the correct section on the new plate. Then dip the same pipette tip into the prepared PCR reaction tube with the correct colony number. The negative control tube (-) gets no colonies.</p></li>
+<li><p>Perform the PCR reactions with the appropriate settings for the polymerase and run the samples on a 1% Agarose gel for checking the results.</p></li>
+</ol>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -671,10 +706,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../synbio/tsstransform.html" class="pagination-link" aria-label="TSS Transformation">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">TSS Transformation</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./synbio/p1transduction.html" class="pagination-link" aria-label="P1 Transduction">
-        <span class="nav-page-text">P1 Transduction</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../microbiology/3colorinfection.html" class="pagination-link" aria-label="3-Color Infection Assay">
+        <span class="nav-page-text">3-Color Infection Assay</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

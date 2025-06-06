@@ -19,6 +19,7 @@ book:
         - synbio/p1transduction.qmd
         - synbio/flprecombination.qmd
         - synbio/tsstransform.qmd
+        - synbio/colonypcr.qmd
     - part: "Microbiology"
       chapters:
         - microbiology/3colorinfection.qmd

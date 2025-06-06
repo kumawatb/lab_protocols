@@ -43,6 +43,17 @@
     ]
   },
   {
+    "objectID": "synbio/colonypcr.html",
+    "href": "synbio/colonypcr.html",
+    "title": "Colony PCR",
+    "section": "",
+    "text": "Strains: Plate with any colonies to be tested (Plate of interest)\nReagents: Appropriate primers for verification, restreak plate with appropriate antibiotic\nTime required: &lt;1 day.\n\nCreate/use LB Agar plates that contain the appropriate antibiotic that was used for selection of the colonies that are to be verified.\nDivide the plate area into any number of subsections for restreaking the colonies. (I usually divide a plate into 8 sectors).\nFor 10uL reactions and N colonies, create a batch PCR mix that is 10 times (N+1) uL in volume. For example, for 8 samples, I will create a PCR master mix that is \\(10\\times(8+1)=90\\) uL in volume. This master mix will contain,\n\nWater\nForward Primer\nReverse Primer, and\nPolymerase w/ Buffer (i.e., PCR Master Mix)\n\nDecide how much water, primers, and polymerase MM goes into this batch mix using the appropriate enzyme documentation and based on the total volume calculated above. For colony PCR, I suggest using a non-high fidelity enzyme like Promega GoTaq Green (but NEB Q5 can be used if the first try with GoTaq fails.)\nMix the batch using vortexing and spin it down. Divide the batch mix into individual PCR tubes, with 10ul volume per tube. Label one of them the negative control (-) and the rest as C1 to CN, where N is the number of colonies you wish to PCR.\nNow, number N colonies on your plate of interest with a marker (from 1 to N). Number the subdivisions on the new plate the same way.\nFor each colony, pick it using a sterile pipette tip from the plate of interest and streak it in the correct section on the new plate. Then dip the same pipette tip into the prepared PCR reaction tube with the correct colony number. The negative control tube (-) gets no colonies.\nPerform the PCR reactions with the appropriate settings for the polymerase and run the samples on a 1% Agarose gel for checking the results.",
+    "crumbs": [
+      "Synthetic Biology",
+      "Colony PCR"
+    ]
+  },
+  {
     "objectID": "microbiology/3colorinfection.html",
     "href": "microbiology/3colorinfection.html",
     "title": "3-Color Infection Assay",

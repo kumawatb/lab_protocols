@@ -1,0 +1,32 @@
+---
+date: 06/06/2025
+author: Bhaskar Kumawat
+---
+
+# Colony PCR {.unnumbered}
+
+**Strains:** Plate with any colonies to be tested (Plate of interest)
+
+**Reagents:** Appropriate primers for verification, restreak plate with appropriate antibiotic
+
+**Time required:** <1 day.
+
+1. Create/use LB Agar plates that contain the appropriate antibiotic that was used for selection of the colonies that are to be verified.
+
+3. Divide the plate area into any number of subsections for restreaking the colonies. (I usually divide a plate into 8 sectors).
+
+4. For 10uL reactions and N colonies, create a batch PCR mix that is 10 times (N+1) uL in volume. For example, for 8 samples, I will create a PCR master mix that is $10\times(8+1)=90$ uL in volume. This master mix will contain, 
+    - Water
+    - Forward Primer
+    - Reverse Primer, and 
+    - Polymerase w/ Buffer (i.e., PCR Master Mix)
+
+5. Decide how much water, primers, and polymerase MM goes into this batch mix using the appropriate enzyme documentation and based on the total volume calculated above. For colony PCR, I suggest using a non-high fidelity enzyme like [Promega GoTaq Green](https://www.promega.com/resources/protocols/product-information-sheets/g/gotaq-green-master-mix-m712-protocol/) (but [NEB Q5](https://www.neb.com/en-us/protocols/2012/08/30/protocol-for-q5-hot-start-high-fidelity-2x-master-mix-m0494) can be used if the first try with GoTaq fails.)
+
+6. Mix the batch using vortexing and spin it down. Divide the batch mix into individual PCR tubes, with 10ul volume per tube. Label one of them the negative control (-) and the rest as C1 to CN, where N is the number of colonies you wish to PCR.
+
+7. Now, number N colonies on your plate of interest with a marker (from 1 to N). Number the subdivisions on the new plate the same way.
+
+8. For each colony, pick it using a sterile pipette tip from the plate of interest and streak it in the correct section on the new plate. Then dip the same pipette tip into the prepared PCR reaction tube with the correct colony number. The negative control tube (-) gets no colonies.
+
+9. Perform the PCR reactions with the appropriate settings for the polymerase and run the samples on a 1% Agarose gel for checking the results.
