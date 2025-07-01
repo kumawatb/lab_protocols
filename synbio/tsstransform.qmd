@@ -24,11 +24,11 @@ author: Bhaskar Kumawat
 
 [Day 1]{.aside}
 
-3. After 1-2 hours, once the culture is translucent but not opaque, swirl the culture in ice water bath for 5-10 minutes to stop cell growth.
+3. After 2-3 hours, once the culture is translucent but not opaque, swirl the culture in ice water bath for 5-10 minutes to stop cell growth.
 
 [Day 1]{.aside}
 
-4. Centrifuge the culture in two 1.5mL centrifuge tubes at maximum speed for 5 minutes to get a cell pellet. Resuspend the cell pellet in 100uL TSS buffer. 
+4. Centrifuge the culture in two 1.5mL centrifuge tubes at 10,000rcf for 4 minutes to get a cell pellet. Resuspend the cell pellet in 100uL TSS buffer. 
     - One of these tubes can be used as a control and will get no plasmid DNA.
 
 [Day 1]{.aside}
@@ -43,4 +43,4 @@ author: Bhaskar Kumawat
 
 [Day 1]{.aside}
 
-7. Plate 100uL of the culture on selective plates. Grow the plates overnight at 37C (or alternative temperature for plasmid).
+7. Plate 100uL of the culture on selective plates (You can also spin down the cells at 10000rcf for 3 mins and resuspend in a smaller amount of LB to plate all the cells). Grow the plates overnight at 37C (or alternative temperature for plasmid).
