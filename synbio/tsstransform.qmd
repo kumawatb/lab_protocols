@@ -12,8 +12,6 @@ author: Bhaskar Kumawat
 **Time required:**  4-5 hours (excluding Day 0)
 
 
-### A. pcp20 Transformation
-
 [Day 0]{.aside}
 
 1. Inoculate a 3ml overnight culture of transformant strain in LB supplemented with any antibiotics required for plasmid/insert maintenance.
