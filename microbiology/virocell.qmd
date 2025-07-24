@@ -1,0 +1,35 @@
+---
+date: 07/24/2025
+author: Bhaskar Kumawat
+citation-location: margin
+reference-location: margin
+---
+
+# Virocell Protocol {.unnumbered}
+
+This protocol is used to make virocells (cells containing phage DNA/RNA) for stable storage at -80C and is derived from Golec, Piotr, et al. "A reliable method for storage of tailed phages." Journal of Microbiological Methods 84.3 (2011): 486-489.
+
+**Strains:**
+
+* Permissive host strain (eg. E. coli BW25113)
+* Clonal phage lysate for phage required to be stored (eg. any of the Basel phages)
+
+**Reagents:** LB Media supplemented with 10mM MgSO4 and 10mM CaCl2, 80% Glycerol
+
+**Time required:** 1 days (excluding day 0)
+
+[Day 0]{.aside}
+
+1. Make an overnight culture of the permissive strain with any required antibiotics.
+
+[Day 1]{.aside}
+
+2. On the next day, dilute the culture 1:100 in 3mL LB supplemented with 10mM MgSO4 and 10mM CaCl2 (30uL of 1M stocks for each). Let the cells grow to late exponential phase (2-3hrs) until they culture is almost near saturation (text outline is visible but not readable).
+
+[Day 1]{.aside}
+
+3. Take the culture out of the incubator, let it sit at room temp for 10 minutes, add phage lysates to the cultures aiming for around $10^6$ to $10^7$ PFUs total and let the tubes sit at room temperature for 15 mins (Time-sensitive). 
+
+[Day 1]{.aside}
+
+4. Aliquot 800uL of the culture into cryotubes containing 200uL 80% Glycerol, mix and flash freeze in liquid nitrogen or dry-ice and ethanol. The virocells can now be stored at -80.

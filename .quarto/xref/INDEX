@@ -22,5 +22,8 @@
   },
   "synbio/colonypcr.qmd": {
     "colonypcr.html": "4697c509"
+  },
+  "microbiology/virocell.qmd": {
+    "virocell.html": "624ca7f0"
   }
 }

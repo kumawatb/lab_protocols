@@ -24,6 +24,7 @@ book:
       chapters:
         - microbiology/3colorinfection.qmd
         - microbiology/receptorswitchtest.qmd
+        - microbiology/virocell.qmd
     - part: "Recipes"
       chapters:
         - recipes/tssbuffer.qmd
