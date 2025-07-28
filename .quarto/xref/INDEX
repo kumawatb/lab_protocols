@@ -25,5 +25,8 @@
   },
   "microbiology/virocell.qmd": {
     "virocell.html": "624ca7f0"
+  },
+  "bespoke/receptorswitching.qmd": {
+    "receptorswitching.html": "09db8327"
   }
 }

@@ -23,8 +23,10 @@ book:
     - part: "Microbiology"
       chapters:
         - microbiology/3colorinfection.qmd
-        - microbiology/receptorswitchtest.qmd
         - microbiology/virocell.qmd
+    - part: "Bespoke"
+      chapters: 
+        - bespoke/receptorswitching.qmd
     - part: "Recipes"
       chapters:
         - recipes/tssbuffer.qmd

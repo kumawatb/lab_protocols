@@ -1,0 +1,73 @@
+---
+date: 07/28/2025
+author: Bhaskar Kumawat
+citation-location: margin
+reference-location: margin
+---
+
+# Receptor Switching Assay {.unnumbered}
+
+This assay is used to test the receptor switching rate of phages. It requires an initial stock of the phage to be tested, and host knockouts with only specific receptors in them. 
+
+**Strains:**
+
+* Permissive host strain (eg. E. coli BW25113)
+* Alternate receptor knockouts (eg. eLamB, eOmpC, eOmpF containing only one of the three receptors each)
+* Clonal phage lysate (eg. any of the Basel phages)
+
+**Reagents:** LB Liquid Media, 0.5% LB Agar, 1M CaCl2, 1M MgSO4, Chloroform
+
+**Time required:** 3 days (excluding day 0)
+
+### A. Replicate Lysate Preparation
+
+[Day 0]{.aside}
+
+1. Make overnight cultures of the cognate host for the phage, the alternative receptor hosts, and a permissive host in 3mL LB. 
+
+[Day 1]{.aside}
+
+2. Dilute overnight culture of cognate host 1:100 (eg. eLamB for B24 phage) in 3mL LB supplemented with 10mM CaCl2 (30 uL of 1M) and 10mM MgSO4 (30uL of 1M). Let the culture grow for ~90 minutes, checking for early exponential growth after 40 minutes. These are the 2' bacterial cultures (make 3x/10x tubes for replication + 1 control with no phage added).
+
+[Day 1]{.aside}
+
+3. Add clonal phage lysate to the 2' cultures, aiming for a total of $10^6$ PFUs of the phage. (eg ~0.1uL for $10^{10}$ lysate). Incubate the cultures at 37C and check for clearing after 2 hours compared to the control with no phage. (I usually start seeing clearing 2 hrs after adding the phage). You can either let the tubes incubate for 3-4 hrs or do an overnight incubation. Note that the bacteria will probably grow back by the next day so checking the same day for clearing is essential to make sure phages grew.
+
+[Day 2]{.aside}
+
+4. Aliquot 1mL of the cultures in a 1.5mL tube, add 50uL chloroform, and vortex vigorously (~30 seconds). Incubate the cultures at 37C with shaking for ~10 minutes.
+
+[Day 2]{.aside}
+
+5. Centrifuge the 1.5mL chloformed tubes at 20,000 rcf for 5 minutes and transfer ~900uL of the supernatant carefully to another 1.5mL tube. The replicate phage lysates are now ready for switching tests.
+
+### B. Low concentration plating
+
+[Day 2]{.aside}
+
+1. Melt 0.5% LB Agar in the microwave, aliquot 8mL of it into a test tube or falcon and supplement with 10mM MgSO4 + 10mM CaCl2 (80uL each of 1M). Do this for each host you wish to test the phage lysates on. Let the agar cool down to ~45-50C in the hot bath.
+
+[Day 2]{.aside}
+
+2. Add 300uL of the saturated overnight culture of each host to each of these agar aliquots, vortex well and pour into a 150mm petri plate with LB Agar. Swirl well to make sure the agar covers the entire surface of the plate. 
+
+[Day 2]{.aside}
+
+3. Prepare phage lysate dilutions by mixing 20uL of lysate into 180uL LB in a 96 well plate 8 consecutive times to get dilutions from $10^{-1}$ to $10^{-8}$. Using a 8/12-well pipette, spot 2uL of these dilutions on the prepared host agar plates.
+
+### C. High concentration plating
+
+[Day 2]{.aside}
+
+1. For a high-concentration test (to find and isolate rare switching mutants), mix 100uL of the undiluted phage lysates with 50uL saturated alternate host culture in a 1.5mL tube. Add 500uL of 0.5% LB Agar (supp. with 10mM MgSO4 + 10mM CaCl2) to the tube, mix well, and move all the liquid in the tube to the wells of a 12-well plate taking care to avoid bubbles. 
+
+[Day 2]{.aside}
+
+2. Cover the 12-well plate with breathe-easier strip, parafilm it, and incubate upright at 37C (with a thermal mass on top to prevent condensation).
+
+
+### D. Analysis
+
+[Day 3]{.aside}
+
+1. Check the low concentration and high concentration plates the next day. Use the low concentration plates to calculate lysate concentrations, and efficiency of plating on alternate receptor hosts if any plaques are seen. Use the high concentration plates to isolate switching mutants and calculate the rate of switching.
