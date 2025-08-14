@@ -27,17 +27,17 @@ This assay is used to test the receptor switching rate of phages. It requires an
 
 [Day 1]{.aside}
 
-2. Dilute overnight culture of cognate host 1:100 (eg. eLamB for B24 phage) in 3mL LB supplemented with 10mM CaCl2 (30 uL of 1M) and 10mM MgSO4 (30uL of 1M). Let the culture grow for ~90 minutes, checking for early exponential growth after 40 minutes. These are the 2' bacterial cultures (make 3x/10x tubes for replication + 1 control with no phage added).
+2. Dilute overnight culture of cognate host 1:100 (eg. eLamB for B24 phage) in 3mL LB supplemented with 10mM CaCl2 (30 uL of 1M) and 10mM MgSO4 (30uL of 1M). Let the culture grow for ~90 minutes. These are the 2' bacterial cultures (make 3x/10x tubes for replication + 1 control with no phage added).
 
 [Day 1]{.aside}
 
-3. Add clonal phage lysate to the 2' cultures, aiming for a total of $10^6$ PFUs of the phage. (eg ~0.1uL for $10^{10}$ lysate). Incubate the cultures at 37C and check for clearing after 2 hours compared to the control with no phage. (I usually start seeing clearing 2 hrs after adding the phage). You can either let the tubes incubate for 3-4 hrs or do an overnight incubation. Note that the bacteria will probably grow back by the next day so checking the same day for clearing is essential to make sure phages grew.
+3. Add clonal phage lysate to the 2' cultures, aiming for a total of $10^6$ PFUs of the phage. (eg 0.1uL for $10^{10}$ lysate). Incubate the cultures at 37C and check for clearing after 2 hours compared to the control with no phage. (I usually start seeing clearing 2 hrs after adding the phage). Let the tubes incubate for a total of 3hrs after addition of phage.
 
-[Day 2]{.aside}
+[Day 1]{.aside}
 
 4. Aliquot 1mL of the cultures in a 1.5mL tube, add 50uL chloroform, and vortex vigorously (~30 seconds). Incubate the cultures at 37C with shaking for ~10 minutes.
 
-[Day 2]{.aside}
+[Day 1]{.aside}
 
 5. Centrifuge the 1.5mL chloformed tubes at 20,000 rcf for 5 minutes and transfer ~900uL of the supernatant carefully to another 1.5mL tube. The replicate phage lysates are now ready for switching tests.
 
