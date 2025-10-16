@@ -14,12 +14,13 @@ book:
   date-format: YYYY
   chapters:
     - index.qmd
-    - part: "Synthetic Biology"
+    - part: "Molecular Biology"
       chapters:
-        - synbio/p1transduction.qmd
-        - synbio/flprecombination.qmd
-        - synbio/tsstransform.qmd
-        - synbio/colonypcr.qmd
+        - molbio/p1transduction.qmd
+        - molbio/flprecombination.qmd
+        - molbio/tsstransform.qmd
+        - molbio/colonypcr.qmd
+        - molbio/phagegdnahmw.qmd
     - part: "Microbiology"
       chapters:
         - microbiology/3colorinfection.qmd

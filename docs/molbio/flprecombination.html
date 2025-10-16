@@ -7,10 +7,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Bhaskar Kumawat">
-<meta name="dcterms.date" content="2025-04-01">
+<meta name="dcterms.date" content="2025-03-31">
 <meta name="description" content="A collection of protocols and notes from wet-lab work.">
 
-<title>TSS Transformation – Lab Protocols</title>
+<title>FLP Recombination – Lab Protocols</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,8 +33,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../synbio/colonypcr.html" rel="next">
-<link href="../synbio/flprecombination.html" rel="prev">
+<link href="../molbio/tsstransform.html" rel="next">
+<link href="../molbio/p1transduction.html" rel="prev">
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -44,7 +44,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-a476b7fa287eacda0e227c6af934d2ba.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-1bb8ca8fb6d22921b4b9f231c0a95c8b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -114,7 +114,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../synbio/p1transduction.html">Synthetic Biology</a></li><li class="breadcrumb-item"><a href="../synbio/tsstransform.html">TSS Transformation</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../molbio/p1transduction.html">Molecular Biology</a></li><li class="breadcrumb-item"><a href="../molbio/flprecombination.html">FLP Recombination</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -151,7 +151,7 @@ window.Quarto = {
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
             <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
- <span class="menu-text">Synthetic Biology</span></a>
+ <span class="menu-text">Molecular Biology</span></a>
           <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
@@ -159,26 +159,32 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../synbio/p1transduction.html" class="sidebar-item-text sidebar-link">
+  <a href="../molbio/p1transduction.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">P1 Transduction</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../synbio/flprecombination.html" class="sidebar-item-text sidebar-link">
+  <a href="../molbio/flprecombination.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">FLP Recombination</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../synbio/tsstransform.html" class="sidebar-item-text sidebar-link active">
+  <a href="../molbio/tsstransform.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">TSS Transformation</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../synbio/colonypcr.html" class="sidebar-item-text sidebar-link">
+  <a href="../molbio/colonypcr.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Colony PCR</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../molbio/phagegdnahmw.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HMW Phage gDNA Extraction (NEB Monarch)</span></a>
   </div>
 </li>
       </ul>
@@ -245,15 +251,22 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#a.-pcp20-transformation" id="toc-a.-pcp20-transformation" class="nav-link active" data-scroll-target="#a.-pcp20-transformation">A. pcp20 Transformation</a></li>
+  <li><a href="#b.-recombination-curing-and-screening" id="toc-b.-recombination-curing-and-screening" class="nav-link" data-scroll-target="#b.-recombination-curing-and-screening">B. Recombination, curing, and screening</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content page-columns page-full" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../synbio/p1transduction.html">Synthetic Biology</a></li><li class="breadcrumb-item"><a href="../synbio/tsstransform.html">TSS Transformation</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../molbio/p1transduction.html">Molecular Biology</a></li><li class="breadcrumb-item"><a href="../molbio/flprecombination.html">FLP Recombination</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">TSS Transformation</h1>
+<h1 class="title">FLP Recombination</h1>
 </div>
 
 
@@ -270,7 +283,7 @@ window.Quarto = {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">April 1, 2025</p>
+      <p class="date">March 31, 2025</p>
     </div>
   </div>
   
@@ -283,15 +296,17 @@ window.Quarto = {
 
 
 <p><strong>Strains:</strong> Transformant strain</p>
-<p><strong>Reagents:</strong> <a href="../recipes/tssbuffer.html">TSS buffer</a>, plasmid, LB plates, antibiotics</p>
-<p><strong>Time required:</strong> 4-5 hours (excluding Day 0)</p>
+<p><strong>Reagents:</strong> <a href="../recipes/tssbuffer.html">TSS buffer</a>, pcp20 plasmid, LB plates, antibiotics</p>
+<p><strong>Time required:</strong> 5 days (excluding day 0)</p>
+<section id="a.-pcp20-transformation" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="a.-pcp20-transformation">A. pcp20 Transformation</h3>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 0</span></div></div>
 <ol type="1">
-<li>Inoculate a 3ml overnight culture of transformant strain in LB supplemented with any antibiotics required for plasmid/insert maintenance.</li>
+<li>Inoculate a 3ml overnight culture of transformant strain in LB supplemented with antibiotics (eg. Kan for keio collection transduced strains).</li>
 </ol>
-<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 1</span></div></div>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 0</span></div></div>
 <ol start="2" type="1">
-<li>Dilute the overnight culture 1:100 in 3mL LB supplemented with antibiotics and incubate at 37C for 1-2 hours.</li>
+<li>Dilute the overnight culture 1:100 in 3mL LB supplemented with antibiotics and incubate at 37C for 2-3 hours.</li>
 </ol>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 1</span></div></div>
 <ol start="3" type="1">
@@ -299,31 +314,54 @@ window.Quarto = {
 </ol>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 1</span></div></div>
 <ol start="4" type="1">
-<li>Centrifuge the culture in two 1.5mL centrifuge tubes at 10,000rcf for 4 minutes to get a cell pellet. Resuspend the cell pellet in 100uL TSS buffer.
+<li>Centrifuge the culture in two 1.5mL centrifuge tubes at maximum speed for 5 minutes to get a cell pellet. Resuspend the cell pellet in 100uL TSS buffer.
 <ul>
 <li>One of these tubes can be used as a control and will get no plasmid DNA.</li>
 </ul></li>
 </ol>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 1</span></div></div>
 <ol start="5" type="1">
-<li>Add 1uL plasmid DNA to the tube and incubate on ice for 30 minutes.
+<li>Add 1uL pcp20 plasmid DNA to the tube and incubate on ice for 30 minutes.
 <ul>
 <li>Set a desk-top heater to 42C for the heat-shock step.</li>
 </ul></li>
 </ol>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 1</span></div></div>
 <ol start="6" type="1">
-<li>Heat shock the cells twice by doing two 45 second heat exposures with a two minute gap on ice (45 sec shock <span class="math inline">\(\rightarrow\)</span> 120 second on ice <span class="math inline">\(\rightarrow\)</span> 45 sec shock). After these heat-shocks, let the tubes incubate on ice for 2 minutes and add 500uL SOC to each. Incubate the cells at 37C (or another temperature required for plasmid stability) for 45 minutes.
+<li>Heat shock the cells twice by doing two 45 second heat exposures with a two minute gap on ice (45 sec shock <span class="math inline">\(\rightarrow\)</span> 120 second on ice <span class="math inline">\(\rightarrow\)</span> 45 sec shock). After these heat-shocks, let the tubes incubate on ice for 2 minutes and add 500uL SOC to each. Incubate the cells at 30C for 1 hour.
 <ul>
-<li>During this time, make selection plates for plating the transformants (with previous and new antibiotics)</li>
+<li>Make LB + Carbenicillin plates for plating transformants.</li>
 </ul></li>
 </ol>
 <div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 1</span></div></div>
 <ol start="7" type="1">
-<li>Plate 100uL of the culture on selective plates (You can also spin down the cells at 10000rcf for 3 mins and resuspend in a smaller amount of LB to plate all the cells). Grow the plates overnight at 37C (or alternative temperature for plasmid).</li>
+<li>Plate 100uL of the culture on LB + Carbenicillin plates. Grow the plates overnight at 30C.</li>
+</ol>
+</section>
+<section id="b.-recombination-curing-and-screening" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="b.-recombination-curing-and-screening">B. Recombination, curing, and screening</h3>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 2</span></div></div>
+<ol type="1">
+<li>After checking for the absence of colonies on the control, inoculate 3 transformed colonies in 3mL LB and grow at 42C overnight for curing of the plasmid.</li>
+</ol>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 3</span></div></div>
+<ol start="2" type="1">
+<li>Dilute the overnight culture by a factor of 10<sup>6</sup> (3x dilution of 10uL in 990uL LB) and plate 125uL of this dilution on LB plates. Incubate the plates at 30C.</li>
+</ol>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 4</span></div></div>
+<ol start="3" type="1">
+<li>Pick three colonies from each plate (total 9 colonies) and restreak them on LB+Kan <span class="math inline">\(\rightarrow\)</span> LB+Carb <span class="math inline">\(\rightarrow\)</span> LB plates (in that order) followed by resuspension in 10uL nuclease free water in a PCR tube. Incubate the LB and LB+Kan plate at 37C and the LB+Carb plate at 30C overnight.
+<ul>
+<li>The colonies in nuclease free water can be used directly for a Colony PCR to check for deletion of the Kanamycin casette.</li>
+</ul></li>
+</ol>
+<div class="page-columns page-full"><p></p><div class="no-row-height column-margin column-container"><span class="margin-aside">Day 5</span></div></div>
+<ol start="4" type="1">
+<li>The next day, isolate colonies that grew on LB but not on LB+Kan and LB+Carb plates. These are the recombined clones. Verify deletions with PCR for binding sites flanking the gene of interest.</li>
 </ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -727,13 +765,13 @@ window.Quarto = {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../synbio/flprecombination.html" class="pagination-link" aria-label="FLP Recombination">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">FLP Recombination</span>
+      <a href="../molbio/p1transduction.html" class="pagination-link" aria-label="P1 Transduction">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">P1 Transduction</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../synbio/colonypcr.html" class="pagination-link" aria-label="Colony PCR">
-        <span class="nav-page-text">Colony PCR</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../molbio/tsstransform.html" class="pagination-link" aria-label="TSS Transformation">
+        <span class="nav-page-text">TSS Transformation</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

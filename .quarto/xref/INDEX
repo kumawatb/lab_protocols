@@ -28,5 +28,20 @@
   },
   "bespoke/receptorswitching.qmd": {
     "receptorswitching.html": "09db8327"
+  },
+  "molbio/p1transduction.qmd": {
+    "p1transduction.html": "06848b69"
+  },
+  "molbio/flprecombination.qmd": {
+    "flprecombination.html": "279daa5e"
+  },
+  "molbio/tsstransform.qmd": {
+    "tsstransform.html": "c955900f"
+  },
+  "molbio/colonypcr.qmd": {
+    "colonypcr.html": "cce00be1"
+  },
+  "molbio/phagegdnahmw.qmd": {
+    "phagegdnahmw.html": "6c6d752c"
   }
 }

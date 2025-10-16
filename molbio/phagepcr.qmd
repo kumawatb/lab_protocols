@@ -1,0 +1,17 @@
+---
+date: 09/15/2025
+author: Bhaskar Kumawat
+---
+
+# Phage PCR {.unnumbered}
+
+**Strains:** Clonal Phage lysate
+
+**Reagents:** 
+
+**Time required:**  
+
+
+1. Dilute high-concentration phage lysate 1:10 in Nuclease Free Water (to dilute out any salts etc), incubate at 98C for 30 minutes.
+
+2. Use 1uL of this lysate for setting up PCR.
