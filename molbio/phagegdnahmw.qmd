@@ -11,9 +11,6 @@ reference-location: margin
 
 **Time required:** 1 day (excluding overnight phage precipitation)
 
-
-### A. Phage Precipitation
-
 [Day 0]{.aside}
 
 1. Incubate 10mL of phage lysate mixed with 5mL precipitation solution at 4C overnight in a 50mL falcon tube (no shaking). This step precipitates the phage out of the lysate. (4mL lysate with 2mL precipitation solution may also work)
